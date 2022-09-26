@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <style>
+        [id=jsId] {
+            color: blue;
+            text-transform: uppercase;
+        }
+
+        /*contenga  con */
+        [id*="ss"] {
+            color: rgb(217, 220, 36)
+            ;
+        }
+
+        /*inicia*/
+        [id^=html] {
+            font-style: italic;
+        }
+
+        [id$=Java] {
+            text-transform: lowercase;
+        }
+
+        [atr=atrValor] {
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="html" style="background-color: yellowgreen;" id="htmlId">
+            <h2>HTML</h2>
+            <p>Texto de primer div.</p>
+        </section>
+
+        <section class="css" id="cssId" atr="atrValor">
+            <h3>CSS</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, non accusantium debitis illum iusto doloremque, maxime, molestiae eveniet voluptatibus quas laboriosam tenetur fugit cupiditate repudiandae recusandae id facilis! Placeat, vitae!</p>
+        </section>
+
+        <section class="js" id="jsId">
+            <h3>JS</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, non accusantium debitis illum iusto doloremque, maxime, molestiae eveniet voluptatibus quas laboriosam tenetur fugit cupiditate repudiandae recusandae id facilis! Placeat, vitae!</p>
+        </section>
+
+        <section class="java" id="idJava">
+            <h3>Java</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, non accusantium debitis illum iusto doloremque, maxime, molestiae eveniet voluptatibus quas laboriosam tenetur fugit cupiditate repudiandae recusandae id facilis! Placeat, vitae!</p>
+        </section>
+
+    </main>
+    
+</body>
+</html>
